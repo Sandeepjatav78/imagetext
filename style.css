@@ -1,0 +1,16 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery img {
+  height: 200px;
+  border: 2px dotted #333;
+  margin: 10px;
+  transition: border-color 0.3s ease;
+}
+
+.gallery img:hover {
+  border-color: #f00;
+}
